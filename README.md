@@ -23,7 +23,7 @@ I always found news headlines to be particularly interesting because of the way 
 Additionally, this project contains detailed reasonings and justifications of why I am doing what I am doing at each step to make it easy for the reader to follow along with the notebook. This also helped me map out my thoughts and have a clear direction while working through the project.
 
 ## Visualization of Data Distribution
-
+![](https://github.com/saihiel/news_headlines/blob/master/images/distribution_of_headline_lengths.png)
 
 I found this histogram useful to see the distribution of headline lengths. This allowed me to make decisions about the kind of model I should use. For instance, the size of the hidden layer or the embedding size depends on the length of the sequences. Since, if a single headline can be 200 words long, then the size of the embedding needs to be large enough to be able to represent this headline.
 
